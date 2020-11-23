@@ -2,13 +2,13 @@
 FROM openjdk:8-jdk-alpine
 
 # Add Maintainer Info
-LABEL maintainer="gaddielgomez15@gmail.com"
+LABEL maintainer="alexalfi00@gmail.com"
 
 # Add a volume pointing to /tmp
 VOLUME /tmp
 
 # Make port 8080 available to the world outside this container
-EXPOSE 5051
+EXPOSE 5040
 
 # The application's jar file
 ARG JAR_FILE=target/SpringBootJwtAuthentication-0.0.1.jar
